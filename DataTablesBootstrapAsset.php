@@ -16,14 +16,14 @@ use yii\web\AssetBundle;
  */
 class DataTablesBootstrapAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/datatables-bootstrap4';
+    public $sourcePath = '@bower/datatables.net-bs4';
 
     public $css = [
-        "BS3/assets/css/datatables.css",
+        "css/dataTables.bootstrap4.min.css",
     ];
 
     public $js = [
-        "BS3/assets/js/datatables.js",
+        "js/dataTables.bootstrap4.min.js",
     ];
 
     public $depends = [

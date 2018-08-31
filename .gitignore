@@ -11,3 +11,7 @@ nbproject
 
 # windows thumbnail cache
 Thumbs.db
+
+#composer files
+composer.lock
+vendor
