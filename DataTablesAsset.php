@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class DataTablesAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/datatables-net';
+    public $sourcePath = '@bower/datatables.net';
 
     public $js = [
         "js/jquery.dataTables.min.js",
