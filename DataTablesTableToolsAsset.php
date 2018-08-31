@@ -27,7 +27,6 @@ class DataTablesTableToolsAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\web\JqueryAsset',
-        'sdelfi\datatables\DataTablesAsset',
+        'yii\web\JqueryAsset'
     ];
 }
