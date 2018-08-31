@@ -52,7 +52,7 @@ class DataTables extends \yii\grid\GridView
         DataTablesBootstrapAsset::register($view);
 
         //TableTools Asset if needed
-        if (isset($clientOptions["tableTools"]) || (isset($clientOptions["dom"]) && strpos($clientOptions["dom"], 'T') >= 0)) {
+        if (isset($clientOptions["tableTools"])) {
             DataTablesButtonsBs4Asset::register($view);
             DataTablesSelectBs4Asset::register($view);
         }
