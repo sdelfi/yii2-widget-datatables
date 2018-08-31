@@ -37,6 +37,7 @@
   "require": {
     "yiisoft/yii2": "*",
     "bower-asset/jquery": ">= 1.7.0",
+    "bower-asset/datatables.net": "*",
     "bower-asset/datatables.net-bs4": "*",
     "bower-asset/datatables-tabletools": "*"
   },

@@ -11,23 +11,18 @@ namespace sdelfi\datatables;
 use yii\web\AssetBundle;
 
 /**
- * Asset for the DataTables Bootstrap JQuery plugin
+ * Asset for the DataTables JQuery plugin
  * @author Federico Nicolás Motta <fedemotta@gmail.com>
  */
-class DataTablesBootstrapAsset extends AssetBundle
+class DataTablesAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/datatables.net-bs4';
-
-    public $css = [
-        "css/dataTables.bootstrap4.min.css",
-    ];
+    public $sourcePath = '@bower/datatables-net';
 
     public $js = [
-        "js/dataTables.bootstrap4.min.js",
+        "js/jquery.dataTables.min.js",
     ];
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'sdelfi\datatables\DataTablesAsset',
     ];
 }
