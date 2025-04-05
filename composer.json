@@ -37,8 +37,8 @@
   "require": {
     "yiisoft/yii2": "*",
     "bower-asset/jquery": ">= 1.7.0",
-    "bower-asset/datatables.net": "*",
-    "bower-asset/datatables.net-bs4": "*",
+    "bower-asset/datatables.net": "2.2.2",
+    "bower-asset/datatables.net-bs4": "2.2.2",
     "bower-asset/datatables.net-select-bs4": "*",
     "bower-asset/datatables.net-buttons-bs4": "*"
   },
@@ -53,6 +53,9 @@
       "installer-paths": {
         "bower-asset-library": "vendor/bower"
       }
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
     }
   }
 }
