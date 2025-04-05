@@ -19,10 +19,8 @@ class DataTablesAsset extends AssetBundle
     public $sourcePath = '@bower/datatables.net';
 
     public $js = [
-        "js/jquery.dataTables.min.js",
+        "js/dataTables.min.js",
     ];
 
-    public $depends = [
-        'yii\web\JqueryAsset',
-    ];
+    public $depends = [];
 }
